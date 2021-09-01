@@ -98,7 +98,7 @@ if __name__ == '__main__':
     file_opened = True
 
     try:
-        output_file = open(argv[2], 'w')
+        output_file = open(argv[1], 'w')
     except IndexError:
         file_opened = False
         output_file = sys.stdout  # continue with 'standard' stdout
